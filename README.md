@@ -1,6 +1,6 @@
 # ZanskarBot
 
-It's a chatbot made in rivescript and Javascript and is designed for students of my hostel Zanskar at IIT Delhi. 
+It's a chatbot designed for students of my hostel Zanskar at IIT Delhi. 
 
 It's hosted currently at <a href = "https://sanjay-sopho.github.io/ZanskarBot/">ZanskarBot</a>
 
