@@ -3,25 +3,23 @@
 
 // Names
 
-! var mess        = Abhinav Chatterjee
-! var maintenance = Pradeep Kumar
-! var sport       = Rajat Kharbanda
-! var cult        = Sankalp Katiyar
-! var library     = Sumeet Khandelwal
-! var common_room = Tarun Gupta
-! var computer_room = Udit Singla
-! var house       = Vaibhav Gupta
+! var mess        = Udit Singla
+! var maintenance = Fahad Jamal
+! var sport       = Vivek Arora, Param Meena
+! var cult        = Nitin Yadav
+! var library     = Kumar Shubham
+! var common_room = Kamal Kant
+! var house       = Shubham Verma
 
 
 //Contact numbers
-! var mess_c          = 9599460657
-! var maintenance_c   = 9560942241
-! var sport_c         = 8447125448
-! var cult_c          = 9582059505
-! var library_c       = 9560942114
-! var common_room_c   = 9560936093
-! var computer_room_c = 9560933391
-! var house_c         = 9971752325
+! var mess_c          = 9560933391
+! var maintenance_c   = 8588854008
+! var sport_c         = 8619253742
+! var cult_c          = 9671714320
+! var library_c       = NA
+! var common_room_c   = 9709041342
+! var house_c         = 8290832434
 
 //emails
 ! var mess_e          = mez148337@mech.iitd.ac.in
@@ -30,7 +28,6 @@
 ! var cult_e          = sankalpkatiyar.com@gmail.com
 ! var library_e       = sumeet1aug@gmail.com
 ! var common_room_e   = guptatarun690@gmail.com
-! var computer_room_e = udit.singla97@gmail.com
 ! var house_e         = mt6140569@iitd.ac.in
 
 ! local concat = newline
@@ -71,20 +68,20 @@
 
 //Names
 
-! var music       = Anshuman Srivastava
-! var drama       = Kishan Patel
-! var lit         = Nitin Yadav
-! var hindi       = Prabhat Kanaujia
-! var pfc         = Priyank
-! var fac         = Ravi Singh
-! var dance       = Sandesh Sen
-! var debating    = Udit Raj Singh
-! var quizzing    = Utkarsh Prajapati
-! var isc         = Kumar Shubham
-! var bsw1        = Deepak Chaurasia
-! var bsw2        = Nishant Verma
-! var sac1        = Shubham Verma
-! var sac2        = Rishabh Mohan Sharma
+! var music       = Siddharth yadav
+! var drama       = Shashi Kumar Modi
+! var lit         = Garvil Singhal
+! var hindi       = Rishab Paliwal
+! var pfc         = Himanshu Yadav
+! var fac         = Ayush Somani
+! var dance       = Shivanshu Bohara
+! var debating    = Dipanshu Sharma
+! var quizzing    = Mayank
+! var isc         = Harsh Kumar
+! var bsw1        = Siddharth Singh
+! var bsw2        = Jatin Bhumbla
+! var sac1        = Saurabh Kumar shah
+! var sac2        = Prabhat Kanaujia
 
 //Contacts
 ! var music_c       = 8826006145
@@ -122,32 +119,32 @@
 
 + [*](music|drama|pfc|fac|dance|debating|quizzing|isc) (rep|representative)[*]{weight=10}
 - Name: <bot <star1>>
-^ Phone: <bot <star1>_c>
-^ Email: <bot <star1>_e>
+//^ Phone: <bot <star1>_c>
+//^ Email: <bot <star1>_e>
 
 + [*](lit|literary) (rep|representative)[*]{weight=10}
 - Name: <bot lit>
-^ Phone: <bot lit_c>
-^ Email: <bot lit_e>
+//^ Phone: <bot lit_c>
+//^ Email: <bot lit_e>
 
 + [*]hindi [samiti] (rep|representative)[*]{weight=10}
 - Name: <bot hindi>
-^ Phone: <bot hindi_c>
-^ Email: <bot hindi_e>
+//^ Phone: <bot hindi_c>
+//^ Email: <bot hindi_e>
 
 + [*]bsw (rep|representative)[*]{weight=10}
 - Name: <bot bsw1>
-^ Phone: <bot bsw1_c>
-^ Email: <bot bsw1_e>
+//^ Phone: <bot bsw1_c>
+//^ Email: <bot bsw1_e>
 ^ Name: <bot bsw2>
-^ Phone: <bot bsw2_c>
-^ Email: <bot bsw2_e>
+//^ Phone: <bot bsw2_c>
+//^ Email: <bot bsw2_e>
 
 
 + [*]sac (rep|representative)[*]{weight=10}
 - Name: <bot sac1>
-^ Phone: <bot sac1_c>
-^ Email: <bot sac1_e>
+//^ Phone: <bot sac1_c>
+//^ Email: <bot sac1_e>
 ^ Name: <bot sac2>
-^ Phone: <bot sac2_c>
-^ Email: <bot sac2_e>
+//^ Phone: <bot sac2_c>
+//^ Email: <bot sac2_e>
