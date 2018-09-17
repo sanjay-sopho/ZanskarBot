@@ -34,32 +34,32 @@
 
 + [*](mess|house|library) (secy|secretary)[*]{weight=10}
 - Name: <bot <star1>>
-^ Phone: <bot <star1>_c>
-^ Email: <bot <star1>_e>
+//^ Phone: <bot <star1>_c>
+//^ Email: <bot <star1>_e>
 
 
 + [*](maint|maintenance) (secy|secretary)[*]{weight=10}
 - Name: <bot maintenance>
-^ Phone: <bot maintenance_c>
-^ Email: <bot maintenance_e>
+//^ Phone: <bot maintenance_c>
+//^ Email: <bot maintenance_e>
 
 
 + [*](common|computer) room (secy|secretary)[*]{weight=10}
 - Name: <bot <star1>_room>
-^ Phone: <bot <star1>_room_c>
-^ Email: <bot <star1>_room_e>
+//^ Phone: <bot <star1>_room_c>
+//^ Email: <bot <star1>_room_e>
 
 
 + [*](sport|sports) (secy|secretary)[*]{weight=10}
 - Name: <bot sport>
-^ Phone: <bot sport_c>
-^ Email: <bot sport_e>
+//^ Phone: <bot sport_c>
+//^ Email: <bot sport_e>
 
 
 + [*](cultural|cult) (secy|secretary)[*]{weight=10}
 - Name: <bot cult>
-^ Phone: <bot cult_c>
-^ Email: <bot cult_e>
+//^ Phone: <bot cult_c>
+//^ Email: <bot cult_e>
 
 
 
