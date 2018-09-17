@@ -9,7 +9,7 @@ bot.loadFile([
   "brain/mess.rive",
   "brain/myself.rive",
   "brain/user.rive"
-], loaded, not_loaded);
+]).then(loaded).catch(not_loaded);
 
 //success function
 function loaded() {
@@ -35,12 +35,12 @@ function chat() {
   //show users message
   bot.sortReplies();
   setTimeout(function() {
-    var reply = bot.reply("local-user", input);
-    console.log("The bot says: " + reply);
+    bot.reply("local-user", input).then(function(reply) {
+         console.log("Bot> ", reply);
+         //show bot's message
+         insertChat("bot", reply);
 
-    //show bot's message
-    insertChat("bot", reply);
-
+     });
   }, 800);
 
 }
